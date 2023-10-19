@@ -19,6 +19,10 @@ Run `docker build -t hlabox .`
 
 Run `docker run --platform linux/amd64 --name hlabox -it hlabox bash` to load the container
 
-### Testing
+## Testing
 
 In a bash shell on the container just run `./hw` This should print out "Hello, World of Assembly Language" to the console.
+
+## Working through the book
+
+Put your sample hla code into the `work` folder and copy them to your container as you need them.
