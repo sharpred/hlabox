@@ -1,0 +1,18 @@
+{
+	"New HLA file": {
+		"scope": "hla,assembler",
+		"prefix": "hla",
+		"body": [
+			"program $1;",
+			"",
+			"#include( \"stdlib.hhf\" )",
+			"",
+			"begin $1;",
+			"",
+			"    stdout.put( \"Hello, World of Assembly Language\", nl );",
+			"",
+			"end $1;"
+		],
+		"description": "New HLA file"
+	}
+}
